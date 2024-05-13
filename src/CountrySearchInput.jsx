@@ -51,7 +51,7 @@ export default function CountryFlags() {
         {filteredCountries.map((country) => (
           <div key={country.name.common} className="countryCard">
             <img src={country.flags.png} alt={country.name.common} />
-            <h3>{country.name.common}</h3>
+            <h2>{country.name.common}</h2>
           </div>
         ))}
       </div>
